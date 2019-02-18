@@ -30,7 +30,7 @@
     @section('content')
         <div class="container about-page">
             <h1 class="text-center">Why Choose Us?</h1>
-            <p>Munro Visuals Production is a growing video production company that creates creative content for music videos, video ads to help marketing for small businesses, and interviews, and special ocassions. Our goal is to create content that both our clients and their potential customers/viewers love by standing out with fanstastic visuals.</p>
+            <p>Munro Visuals Production is a growing video production company that creates creative content for music videos, video ads to help marketing for small businesses, interviews, and special ocassions. Our goal is to create content that both our clients and their potential customers/viewers love by standing out with fanstastic visuals.</p>
         </div>
     @endsection
 </body>

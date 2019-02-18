@@ -42,7 +42,7 @@
                 <img src="img/cameraman.jpg" alt=""width="100%" height="400px">
             </div>
             <div class="col-md-6">
-                <h2>Pricing Strcture</h2>
+                <h2>Pricing Structure</h2>
                 <hr>
                 <h3>Standard Package: $250</h3>
                 <ul>

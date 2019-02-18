@@ -103,8 +103,8 @@
                 </div>
                 <div class="col-md-6">
                     <div class="appointment-name">
-                        <h1>Scheldule An Appointment</h1>
-                        <p>Why Munro Visuals Production? Because we have the most talented and creative people on our team. We value our clients work as much as they value thier customers/audience. Our goal is to make sure to produce the best content we can to make your business stand out and grow.</p>
+                        <h1>Schedule An Appointment</h1>
+                        <p>Why Munro Visuals Production? Because we have the most talented and creative people on our team. We value our clients work as much as they value their customers/audience. Our goal is to make sure to produce the best content we can to make your business stand out and grow.</p>
                         <button type="button" class="btn banner-btn btn-primary"><a style="color: #fff" href="/services">GET STARTED</a></button>
                     </div>
                 </div>
