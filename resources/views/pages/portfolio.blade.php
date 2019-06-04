@@ -43,7 +43,37 @@
     <div class="container video-container">
         <div class="row">
 
-            Hello World
+            <div class="col-md-3">
+                <div class="video-border">
+                    <div class="video">
+                        <video autoplay controls class="" muted plays-inline width="250px" height="250px">
+                            <source src="videos/compressed lessons.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                    <p>Lessons - Jay Tunne (Freestyle)</p>
+                    <button style="width: 100%;" type="button" class="btn banner-btn btn-dark">Coming Soon...</button>
+                        
+                    <div class="d-flex justify-content-between align-items-center">
+                        <small class="text-muted">Feb 12th, 2019</small>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="video-border">
+                    <div class="video">
+                        <video autoplay controls class="" muted plays-inline width="250px" height="250px">
+                            <source src="videos/make it out compressed.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                    <p>Make It Out - Jay Finesse ft. Bally Durant (Offcial Music Video)</p>
+                    <button style="width: 100%;" type="button" class="btn banner-btn btn-dark"><a style="color: #fff" href="https://www.youtube.com/watch?v=hdUEumBsY9o"><i style="color: red" class="fab fa-2x fa-youtube"></i></a></button>
+                        
+                    <div class="d-flex justify-content-between align-items-center">
+                        <small class="text-muted">Feb 12th, 2019</small>
+                    </div>
+                </div>
+            </div>
 
             <div class="col-md-3">
                 <div class="video-border">
