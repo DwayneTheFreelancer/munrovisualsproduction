@@ -136,7 +136,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-6 col-sm-12 col-xs-12 text-center">
-                        <span>Munro Visuals Production</span>
+                        <span>Munro Visuals Media</span>
                     </div>
                     <div class="col-md-6 col-sm-12 col-xs-12 text-center">
                         <span class="m-right">Email: dwaynemunro4business@gmail.com | <a href="https://www.youtube.com/channel/UCMA2n1omkzh68Z6ZXM_12yg">YouTube</a></span>
