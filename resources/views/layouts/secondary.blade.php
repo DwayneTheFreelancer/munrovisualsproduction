@@ -94,7 +94,7 @@
     </style>
     <body>
         <nav style="background: #2606B8;" class="navbar navbar-expand-lg navbar-light">
-            <a style="color: #fff" class="navbar-brand" href="/">Munro Visuals Production</a>
+            <a style="color: #fff" class="navbar-brand" href="/">Munro Visuals Media</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
             </button>
