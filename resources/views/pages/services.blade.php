@@ -44,18 +44,19 @@
             <div class="col-md-6">
                 <h2>Pricing Structure</h2>
                 <hr>
-                <h3>Standard Package: $250</h3>
+                <h3>Standard Package: $250 + travel fee</h3>
                 <ul>
                     <li>DSLR Camera 1080 60p</li>
                     <li>Stablizer</li>
                     <li><h2>$50 Discount For Promo</h2></li>
                 </ul>
-                <h3>Gold Package: $350</h3>
+                <h3>Gold Package: $350 + travel fee</h3>
                 <ul>
-                    <li>Standard Package + Special Lighting</li>
+                    <li>Standard Package + Lighting Attachment</li>
+                    <li>Green Screen (Optional)</li>
                     <li><h2>$50 Discount For Promo</h2></li>
                 </ul>
-                <h3>Platinum Package: $500</h3>
+                <h3>Platinum Package: $500 + travel fee</h3>
                 <ul>
                     <li>Drone</li>
                     <li>4k Resolution</li>

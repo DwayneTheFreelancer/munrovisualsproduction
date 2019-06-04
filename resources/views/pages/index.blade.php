@@ -11,7 +11,7 @@
             <source src="videos/mvpbanner5.mp4" type="video/mp4">
         </video>
         <nav style="background: #2606B8;" class="navbar navbar-expand-lg navbar-light">
-            <a style="color: #fff" class="navbar-brand" href="/">Munro Visuals Production</a>
+            <a style="color: #fff" class="navbar-brand" href="/">Munro Visuals Media</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
             </button>
@@ -37,7 +37,7 @@
             </div>
         </nav>
         <div class="banner-name">
-            <h1>MVP</h1>
+            <h1>MVM</h1>
             <h1>TELL YOUR BRAND'S STORY</h1>
             <button type="button" class="btn banner-btn btn-light"><a href="/services">GET STARTED</a></button>
             <button type="button" class="btn banner-btn btn-light"><a href="/portfolio">PORTFOLIO</a></button>
@@ -87,7 +87,7 @@
             <div class="recent-work-title">
                 <h1 class="text-center">Recent Work</h1>
             </div>
-            <iframe width="100%" height="543" src="https://www.youtube.com/embed/6ymWaP0SnkI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="100%" height="543" src="https://www.youtube.com/watch?v=hdUEumBsY9o" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
         <div class="container testimonials">
             <div class="testimonials-name">
@@ -104,7 +104,7 @@
                 <div class="col-md-6">
                     <div class="appointment-name">
                         <h1>Schedule An Appointment</h1>
-                        <p>Why Munro Visuals Production? Because we have the most talented and creative people on our team. We value our clients work as much as they value their customers/audience. Our goal is to make sure to produce the best content we can to make your business stand out and grow.</p>
+                        <p>Why Munro Visuals Media? Because we have the most talented and creative people on our team. We value our clients work as much as they value their customers/audience. Our goal is to make sure to produce the best content we can to make your business stand out and grow.</p>
                         <button type="button" class="btn banner-btn btn-primary"><a style="color: #fff" href="/services">GET STARTED</a></button>
                     </div>
                 </div>
@@ -128,7 +128,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-6 col-sm-12 col-xs-12 text-center">
-                    <span>Munro Visuals Production</span>
+                    <span>Munro Visuals Media</span>
                 </div>
                 <div class="col-md-6 col-sm-12 col-xs-12 text-center">
                     <span class="m-right">Email: dwaynemunro4business@gmail.com | <a href="https://www.youtube.com/channel/UCMA2n1omkzh68Z6ZXM_12yg">YouTube</a></span>
