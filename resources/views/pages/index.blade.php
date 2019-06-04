@@ -87,7 +87,7 @@
             <div class="recent-work-title">
                 <h1 class="text-center">Recent Work</h1>
             </div>
-            <iframe width="100%" height="543" src="https://www.youtube.com/watch?v=hdUEumBsY9o" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="100%" height="543" src="https://www.youtube.com/embed/hdUEumBsY9o" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
         <div class="container testimonials">
             <div class="testimonials-name">
