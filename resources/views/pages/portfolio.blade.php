@@ -5,7 +5,7 @@
 <style>
     .portfolio-banner {
         height: 400px;
-        background: url('/img/portfolio-banner.jpg') center no-repeat;
+        background: url('/img/Adobe Premiere.jpg') center no-repeat;
         background-size: cover;
         background-height: 400px;
     }
