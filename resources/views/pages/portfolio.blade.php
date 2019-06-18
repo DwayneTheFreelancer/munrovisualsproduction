@@ -52,7 +52,9 @@
     <div class="col-lg-4 col-md-12 mb-lg-0 mb-4">
         <!--Featured image-->
         <div class="view overlay rounded z-depth-1">
-        <img src="https://mdbootstrap.com/img/Photos/Others/images/58.jpg" class="img-fluid" alt="Sample project image">
+            <video autoplay controls class="" muted plays-inline width="250px" height="250px">
+                <source src="videos/compressed lessons.mp4" type="video/mp4">
+            </video>
         <a>
             <div class="mask rgba-white-slight"></div>
         </a>
@@ -63,7 +65,8 @@
         <p class="grey-text">Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe
             eveniet ut et voluptates repudiandae.
         </p>
-        <a class="btn btn-indigo btn-sm"><i class="fas fa-clone left"></i> View project</a>
+        <button style="width: 100%;" type="button" class="btn banner-btn btn-dark">Coming Soon...</button>
+        <!-- <a class="btn btn-indigo btn-sm"><i class="fas fa-clone left"></i> View project</a> -->
         </div>
     </div>
     <!-- Grid column -->
