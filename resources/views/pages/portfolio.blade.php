@@ -54,7 +54,7 @@
                     <button style="width: 100%;" type="button" class="btn banner-btn btn-dark">Coming Soon...</button>
                         
                     <div class="d-flex justify-content-between align-items-center">
-                        <small class="text-muted">Feb 12th, 2019</small>
+                        <small class="text-muted">June 14th, 2019</small>
                     </div>
                 </div>
             </div>
@@ -70,7 +70,7 @@
                     <button style="width: 100%;" type="button" class="btn banner-btn btn-dark"><a style="color: #fff" href="https://www.youtube.com/watch?v=hdUEumBsY9o"><i style="color: red" class="fab fa-2x fa-youtube"></i></a></button>
                         
                     <div class="d-flex justify-content-between align-items-center">
-                        <small class="text-muted">Feb 12th, 2019</small>
+                        <small class="text-muted">Apr 25th, 2019</small>
                     </div>
                 </div>
             </div>
