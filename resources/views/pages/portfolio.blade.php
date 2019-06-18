@@ -52,7 +52,7 @@
     <div class="col-lg-4 col-md-12 mb-lg-0 mb-4">
         <!--Featured image-->
         <div class="view overlay rounded z-depth-1">
-            <video autoplay controls class="" muted plays-inline width="250px" height="250px">
+            <video class="img-fluid" autoplay controls muted plays-inline width="250px" height="250px">
                 <source src="videos/compressed lessons.mp4" type="video/mp4">
             </video>
         <a>
