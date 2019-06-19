@@ -51,16 +51,16 @@
 
     <div class="carousel">
         <div>
-            <iframe width="966" height="543" data-lazy="https://www.youtube.com/embed/1XzY2ij_vL4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <img data-lazy="img/services-banner.jpg" alt="" height="300px" width="300px">
         </div>
         <div>
-            <iframe width="966" height="543" data-lazy="https://www.youtube.com/embed/N_fBJ-D_kd4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <img data-lazy="img/camera.jpg" alt="" height="300px" width="300px">
         </div>
         <div>
-            <iframe width="966" height="543" data-lazy="https://www.youtube.com/embed/o1gzrH3syhI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <img data-lazy="img/cameraman.jpg" alt="" height="300px" width="300px">
         </div>
         <div>
-            <iframe width="966" height="543" data-lazy="https://www.youtube.com/embed/OKCz6EiAM6Y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <img data-lazy="img/services2.jpg" alt="" height="300px" width="300px">
         </div>
     </div>
 
