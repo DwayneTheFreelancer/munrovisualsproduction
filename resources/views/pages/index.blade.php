@@ -51,16 +51,16 @@
 
     <div class="carousel">
         <div>
-            <img data-lazy="img/services-banner.jpg" alt="" height="300px" width="300px">
+            <img src="img/services-banner.jpg" alt="" height="300px" width="300px">
         </div>
         <div>
-            <img data-lazy="img/camera.jpg" alt="" height="300px" width="300px">
+            <img src="img/camera.jpg" alt="" height="300px" width="300px">
         </div>
         <div>
-            <img data-lazy="img/cameraman.jpg" alt="" height="300px" width="300px">
+            <img src="img/cameraman.jpg" alt="" height="300px" width="300px">
         </div>
         <div>
-            <img data-lazy="img/services2.jpg" alt="" height="300px" width="300px">
+            <img src="img/services2.jpg" alt="" height="300px" width="300px">
         </div>
     </div>
 
