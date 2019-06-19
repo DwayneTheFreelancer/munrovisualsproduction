@@ -10,7 +10,7 @@
         <video autoplay loop class="video-background" muted plays-inline>
             <source src="videos/mvpbanner5.mp4" type="video/mp4">
         </video>
-        <nav style="background: #2606B8;" class="navbar navbar-expand-lg navbar-light">
+        <nav style="background: #2606B8;" class="navbar fixed-top navbar-expand-lg navbar-light">
             <a style="color: #fff" class="navbar-brand" href="/">Munro Visuals Media</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -48,6 +48,47 @@
 @endsection
 
 @section('content')
+
+    <h1>Slick Centered Post Carousel</h1>
+    <!-- BEGIN SLIDER CONTAINER -->
+    <section style="margin: 0 auto" class="centered no-fouc"> 
+    <!-- BEGIN SLIDE -->
+    <div> 
+    <!-- UNSPLASH.COM PLACER PHOTO -->
+    <img alt="Descriptive Text" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/191814/photo-1559163179-3fd017552229.jpeg">
+    <!-- SLIDE CAPTION 
+            Remove for Image Slider -->
+        <!-- // END SLIDE CAPTION -->
+    </div>
+    <!-- // END SLIDE --> 
+    
+    <!-- BEGIN SLIDE -->
+    <div> <img alt="Descriptive Text" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/191814/photo-1559163206-6615672fad34.jpeg">
+    </div>
+    <!-- // END SLIDE --> 
+    
+    <!-- BEGIN SLIDE -->
+    <div> <img alt="Descriptive Text" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/191814/photo-1559163330-c30bac8c5031.jpeg">
+    </div>
+    <!-- // END SLIDE --> 
+    
+    <!-- BEGIN SLIDE -->
+    <div> <img alt="Descriptive Text" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/191814/photo-1559163479-98365644374a.jpeg">
+    </div>
+    <!-- // END SLIDE --> 
+    
+    <!-- BEGIN SLIDE -->
+    <div> <img alt="Descriptive Text" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/191814/photo-1559163499-413811fb2344%20(1).jpeg">
+    </div>
+    <!-- // END SLIDE --> 
+    
+    <!-- BEGIN SLIDE -->
+    <div> <img alt="Descriptive Text" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/191814/photo-1559163304-2bd8f8600164.jpeg">
+    </div>
+    <!-- // END SLIDE --> 
+    
+    <!-- // END SLIDER CONTAINER --> 
+    </section>
 
     <div class="container process">
             <div class="card-deck mb-3 text-center">
