@@ -19,10 +19,12 @@ Route::get('/', 'PagesController@index');
 /* Make portfolio page have options 
 
 Route::get('/portfolio-home', 'PagesController@portfolioHome');
+    - Initerviews
     - Photography 
     - Graphic Art
     - Music Videos
     - Promotional ads
+    - News
 Route::get('/photography', 'PagesController@photography');
 Route::get('/graphic-art', 'PagesController@graphicArt');
 Route::get('/music-videos', 'PagesController@musicVideos');
