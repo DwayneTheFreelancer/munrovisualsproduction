@@ -75,7 +75,7 @@
                         <div class="card-body">
                             <h5 class="card-title">Platinum Package Price: $350</h5>
                             <ul>
-                                <li>Time 3hrs per day + up to 3 days to shoot scenes</li>
+                                <li>Time 3hrs per day + up to 2 days to shoot scenes</li>
                                 <li>Travel fee: $25 included + tax</li>
                                 <li>Camera 1080 60p HD + Stablizer + lighting</li>
                                 <li>Professional Software Editing</li>
