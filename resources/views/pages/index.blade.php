@@ -7,9 +7,9 @@
 @section('header')
 
     <header>
-        <video autoplay loop class="video-background" muted plays-inline>
+        <!-- <video autoplay loop class="video-background" muted plays-inline>
             <source src="videos/mvpbanner5.mp4" type="video/mp4">
-        </video>
+        </video> -->
         <nav style="background: #2606B8;" class="navbar fixed-top navbar-expand-lg navbar-light">
             <a style="color: #fff" class="navbar-brand" href="/">Munro Visuals Media</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
@@ -18,17 +18,39 @@
             <div class="collapse navbar-collapse" id="navbarText" >
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item active">
-                        <a style="color: #fff" class="nav-link" href="/portfolio">Portfolio<span class="sr-only">(current)</span></a>
+                        <a style="color: #fff;" class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Videos
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="/music-videos">Music Videos</a>
+                            <a class="dropdown-item" href="/promotional">Promotional</a>
+                            <a class="dropdown-item" href="/interviews">Interviews</a>
+                        </div>
                     </li>
                     <li class="nav-item">
+                        <a style="color: #fff;" class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Photography/Art
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="/photography">Photography</a>
+                            <a class="dropdown-item" href="/graphic-art">Graphic Art</a>
+                        </div>
+                    </li>
+                    <!-- <li class="nav-item active">
+                        <a style="color: #fff" class="nav-link" href="/portfolio">Portfolio<span class="sr-only">(current)</span></a>
+                    </li> -->
+                    <li class="nav-item">
                         <a style="color: #fff" class="nav-link" href="/services">Services</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a style="color: #fff" class="nav-link" href="/news">News</a>
                     </li>
                     <li class="nav-item">
                         <a style="color: #fff" class="nav-link" href="/about">About</a>
                     </li>
-                    <!-- <li class="nav-item">
-                        <a style="color: #fff" class="nav-link" href="#">Contact</a>
-                    </li> -->
+                    <li class="nav-item">
+                        <a style="color: #fff" class="nav-link" href="/contact">Contact</a>
+                    </li>
                     <li class="nav-item">
                         <a style="color: #fff" class="nav-link" href="https://www.youtube.com/channel/UCMA2n1omkzh68Z6ZXM_12yg">YouTube</a>
                     </li>
@@ -37,10 +59,13 @@
             </div>
         </nav>
         <div class="banner-name">
-            <h1>MVM</h1>
-            <h1>TELL YOUR BRAND'S STORY</h1>
-            <button type="button" class="btn banner-btn btn-light"><a href="/services">GET STARTED</a></button>
-            <button type="button" class="btn banner-btn btn-light"><a href="/portfolio">PORTFOLIO</a></button>
+            <h1 style="color: #EAF4F7">MUNRO VISUALS MEDIA</h1>
+            <h3 style="color: #EAF4F7">INVEST IN YOUR NAME</h3>
+            <a href="/services"><button type="button" class="text-center btn banner-btn btn-light">Book A Service</button></a>
+            <a href="/music-videos"><button type="button" class="btn banner-btn btn-light">Music Videos</button></a>
+            <a href="/interviews"><button type="button" class="btn banner-btn btn-light">Interviews</button></a>
+            <a href="/photography"><button type="button" class="btn banner-btn btn-light">Photoshop Edits</button></a>
+            <a href="/graphic-art"><button type="button" class="btn banner-btn btn-light">Graphic Art</button></a>
         </div>
         <!-- @yield('banner') -->
     </header>
@@ -49,56 +74,115 @@
 
 @section('content')
 
-    
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <h1 style="text-decoration: underline">Latest Videos</h1>
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <iframe width="100%" height="450px" src="https://www.youtube.com/embed/6ymWaP0SnkI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <!-- <div class="carousel-item">
+                <iframe width="100%" height="450px" src="https://www.youtube.com/embed/N_fBJ-D_kd4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div class="carousel-item">
+                <iframe width="100%" height="450px" src="https://www.youtube.com/embed/o1gzrH3syhI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div> -->
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
 
-    <div class="container process">
-            <div class="card-deck mb-3 text-center">
-                <div class="card mb-4 shadow-sm">
-                    <div class="card-header">
-                        <h4 class="my-0 font-weight-normal">Pre-Production</h4>
-                    </div>
-                    <div class="card-body">
-                        <h2>Schedule a meeting with us and we will plan out with you the idea you would like to film</h2>
-                        <button type="button" class="btn btn-lg btn-block"><i class="fas fa-3x fa-calendar-alt"></i></button>
-                    </div>
+
+
+    <div class="container-fluid latest-pics-art">
+        <h1 style="text-decoration: underline">Latest Photos/Art</h1>
+        <div class="card-deck">
+            <div class="card">
+                <img src="img/Lance Cover.JPG" class="card-img-top" alt="..." width="300px" height="300px">
+                <div class="card-body">
+                <h5 class="card-title">Baby Prince Cover Art</h5>
+                <p class="card-text">With Baby Prince new single coming out soon he choose this to be his cover art, stay tuned for "Your Love Is My Drugz".</p>
+                <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
                 </div>
-                <div class="card mb-4 shadow-sm">
-                    <div class="card-header">
-                        <h4 class="my-0 font-weight-normal">Production</h4>
-                    </div>
-                    <div class="card-body">
-                        <h2>We use high quality equipment plus lots of creativity to make sure visuals are perfect</h2>
-                        <br>
-                        <br>
-                        <span></span>
-                        <button type="button" class="btn btn-lg btn-block"><i class="fas fa-3x fa-video"></i></button>
-                    </div>
+            </div>
+            <div class="card">
+                <img src="img/MVM Logo.jpg" class="card-img-top" alt="..." width="300px" height="300px">
+                <div class="card-body">
+                <h5 class="card-title">Munro Visuals Media Official Logo</h5>
+                <p class="card-text">We would love to give a thanks to our graphic artist for making us this logo.</p>
+                <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
                 </div>
-                <div class="card mb-4 shadow-sm">
-                    <div class="card-header">
-                        <h4 class="my-0 font-weight-normal">Post-Production</h4>
-                    </div>
-                    <div class="card-body">
-                        <h2>During this step we are working hardcore on the editing process adding effects to bring your idea to film</h2>
-                        <button type="button" class="btn btn-lg btn-block"><i class="fas fa-3x fa-desktop"></i></button>
-                    </div>
+            </div>
+            <div class="card">
+                <img src="img/Prom Pic 3.png" class="card-img-top" alt="..." width="300px" height="300px">
+                <div class="card-body">
+                <h5 class="card-title">Prom 2k19 Pic</h5>
+                <p class="card-text">Big thanks to Amia for choosing Munro Visuals Media to be her photographer for her prom. <br>IG: amialicious</p>
+                <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
                 </div>
             </div>
         </div>
-        <div class="container recent-work">
-            <div class="recent-work-title">
-                <h1 class="text-center">Recent Work</h1>
-            </div>
-            <iframe width="100%" height="543" src="https://www.youtube.com/embed/hdUEumBsY9o" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+
+    <div class="container accordion" id="accordionExample">
+        <h1>Production Process</h1>
+        <div class="card">
+            <div class="card-header" id="headingOne">
+            <h2 class="mb-0">
+                <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                Pre-Production
+                <i class="fas fa-1x fa-calendar-alt"></i>
+                </button>
+            </h2>
         </div>
-        <div class="container testimonials">
-            <div class="testimonials-name">
-                <h1 class="text-center">Client's Reviews</h1>
-                <h1>Coming Soon...</h1>
-            </div>
-            
+
+        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+            <h4>Schedule a meeting with us and we will plan out with you the idea you would like to film</h4>
         </div>
-        <div class="container appointment">
+        <div class="card">
+            <div class="card-header" id="headingTwo">
+            <h2 class="mb-0">
+                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                Production
+                <i class="fas fa-1x fa-video"></i>
+                </button>
+            </h2>
+            </div>
+            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                <h4>We use high quality equipment plus lots of creativity to make sure visuals are perfect</h4>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header" id="headingThree">
+            <h2 class="mb-0">
+                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                Post-Production
+                <i class="fas fa-1x fa-desktop"></i>
+                </button>
+            </h2>
+            </div>
+            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                <h4>During this step we are working hardcore on the editing process adding effects to bring your idea to film</h4>
+            </div>
+        </div>
+    </div>
+
+    <div class="container instagram-div">
+        <h1><center>Follow Us On Instagram</center></h1>
+        <!-- LightWidget WIDGET --><script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></script><iframe src="//lightwidget.com/widgets/38e07066638a58ae969fe6c25ba1ad35.html" scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width:100%;border:0;overflow:hidden;"></iframe>
+    </div>
+
+    <div class="container appointment">
             <div class="row">
                 <div class="col-md-6">
                     <img src="img/camera.jpg" alt="" width="100%">
@@ -116,26 +200,3 @@
 
 @endsection
 
-@section('footer')
-    <footer class="footer mt-auto py-3">
-        <div class="container">
-            <h3 class="text-center">Subscribe To Newsletter</h3>
-            <div class="input-group mb-3">
-                <input type="text" class="form-control" placeholder="Email" aria-label="Recipient's username" aria-describedby="button-addon2">
-                <div class="input-group-append">
-                    <button class="btn btn-outline-secondary" type="button" id="button-addon2">Submit</button>
-                </div>
-            </div>
-        </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6 col-sm-12 col-xs-12 text-center">
-                    <span>Munro Visuals Media</span>
-                </div>
-                <div class="col-md-6 col-sm-12 col-xs-12 text-center">
-                    <span class="m-right">Email: dwaynemunro4business@gmail.com | <a href="https://www.youtube.com/channel/UCMA2n1omkzh68Z6ZXM_12yg">YouTube</a></span>
-                </div>
-            </div>
-        </div>
-    </footer>
-@endsection

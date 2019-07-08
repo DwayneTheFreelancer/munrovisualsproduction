@@ -6,16 +6,25 @@
     <div class="collapse navbar-collapse" id="navbarText" >
         <ul class="navbar-nav ml-auto">
             <li class="nav-item active">
-                <a style="color: #fff" class="nav-link" href="#">Portfolio<span class="sr-only">(current)</span></a>
+                <a style="color: #fff" class="nav-link" href="/media">Videos<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+                <a style="color: #fff" class="nav-link" href="/photography-art">Photography/Art</a>
+            </li>
+            <!-- <li class="nav-item active">
+                <a style="color: #fff" class="nav-link" href="/portfolio">Portfolio<span class="sr-only">(current)</span></a>
+            </li> -->
+            <li class="nav-item">
+                <a style="color: #fff" class="nav-link" href="/services">Services</a>
+            </li>
+            <li class="nav-item active">
+                <a style="color: #fff" class="nav-link" href="/news">News</a>
             </li>
             <li class="nav-item">
-                <a style="color: #fff" class="nav-link" href="#">Services</a>
+                <a style="color: #fff" class="nav-link" href="/about">About</a>
             </li>
             <li class="nav-item">
-                <a style="color: #fff" class="nav-link" href="#">About</a>
-            </li>
-            <li class="nav-item">
-                <a style="color: #fff" class="nav-link" href="#">Contact</a>
+                <a style="color: #fff" class="nav-link" href="/contact">Contact</a>
             </li>
             <li class="nav-item">
                 <a style="color: #fff" class="nav-link" href="https://www.youtube.com/channel/UCMA2n1omkzh68Z6ZXM_12yg">YouTube</a>

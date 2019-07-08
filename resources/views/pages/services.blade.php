@@ -19,7 +19,19 @@
     }
 
     .book-service {
-        margin: 100px auto 300px auto;
+        margin: 100px auto 100px auto;
+    }
+
+    .service-plans {
+        width: 100%;
+        height: 200px;
+        margin: 0px 0 350px 0;
+    }
+
+    .art-request {
+        width: 100%;
+        height: 200px;
+        margin: 0px auto 250px auto;
     }
 </style>
 @endsection
@@ -31,80 +43,92 @@
         </div>
     </section>
 
-    <div class="container services-info">
-        <h2 style="color: red" class="text-center">2D & 3D ANIMATIONS COMING SOON!</h2>
-        <h2 class="text-center">Our Services Cover Music Videos, Ads For Small Businesses, And Special Occasions</h2>
-    </div>
-
-    <div class="container services-container">
-        <div class="row">
-            <div class="col-md-6">
-                <img src="img/cameraman.jpg" alt=""width="100%" height="400px">
-            </div>
-            <div class="col-md-6">
-                <h2>Pricing Structure</h2>
-                <hr>
-                <h3>Standard Package: $250 + travel fee</h3>
-                <ul>
-                    <li>DSLR Camera 1080 60p</li>
-                    <li>Stablizer</li>
-                    <li><h2>$50 Discount For Promo</h2></li>
-                </ul>
-                <h3>Gold Package: $350 + travel fee</h3>
-                <ul>
-                    <li>Standard Package + Lighting Attachment</li>
-                    <li>Green Screen (Optional)</li>
-                    <li><h2>$50 Discount For Promo</h2></li>
-                </ul>
-                <h3>Platinum Package: $500 + travel fee</h3>
-                <ul>
-                    <li>Drone</li>
-                    <li>4k Resolution</li>
-                    <li>Green Screen (Optional)</li>
-                    <li><h2>$100 Discount For Promo</h2></li>
-                </ul>
-            </div>
-        </div>
-    </div>
-
     <div class="container book-service">
         <h1 class="text-center">Book A Video Shoot</h1>
-        <!-- <form action="/services" method="POST">
-            <div class="form-group">
-                <label for="exampleFormControlInput1">First Name*</label>
-                <input type="text" class="form-control" id="exampleFormControlInput1">
+        <h2 style="color: red"><center>Due to the problems with payments for past videos ALL BOOKINGS WILL REQUIRE 50% DOWN PAYMENT AND WON'T BE RELEASED UNTIL OTHER 50% OF PAYMENT IS RECIEVED NO EXCEPTIONS</center></h2>
+        <h3 class="text-center">Locations we shoot in NY: Brooklyn, Manhattan, Queens NO OTHER LOCATIONS YET</h3>
+    </div>
+
+        <div class="container-fluid service-plans">
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Basic Package Price: $250</h5>
+                            <ul>
+                                <li>Time 2hrs per day + up to 2 days to shoot scenes</li>
+                                <li>Travel fee: $20 included + tax</li>
+                                <li>Camera 1080 60p HD + Stablizer</li>
+                                <li>Professional Software Editing</li>
+                            </ul>
+                            <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                                <input type="hidden" name="cmd" value="_s-xclick">
+                                <input type="hidden" name="hosted_button_id" value="C4QM7KMLFJ3EL">
+                                <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                                <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Platinum Package Price: $350</h5>
+                            <ul>
+                                <li>Time 3hrs per day + up to 3 days to shoot scenes</li>
+                                <li>Travel fee: $25 included + tax</li>
+                                <li>Camera 1080 60p HD + Stablizer + lighting</li>
+                                <li>Professional Software Editing</li>
+                            </ul>
+                            <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                                <input type="hidden" name="cmd" value="_s-xclick">
+                                <input type="hidden" name="hosted_button_id" value="SEDZB83YQ72AE">
+                                <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                                <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                            </form>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="form-group">
-                <label for="exampleFormControlInput1">Last Name*</label>
-                <input type="text" class="form-control" id="exampleFormControlInput1">
+        </div>
+
+        <!-- Add payment option for Graphic Art And Photography -->
+        <div class="container art-request">
+            <h1 class="text-center">Book Graphic Art</h1>
+            <div class="row">
+                <div class="card w-100">
+                    <div class="card-body">
+                        <h5 class="card-title">Graphic Art - Price: $45</h5>
+                        <h5>You don't pay till after your satisfied Payments through Paypal, Zelle, or Apple Cash ONLY!</h5>
+                        <p class="card-text">Tell us your vision of what you want and make sure to be very descriptive.</p>
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalScrollable">
+                        Book Graphic Art Now
+                        </button>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModalScrollable" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableTitle" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-scrollable" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <!-- <h5 class="modal-title" id="exampleModalScrollableTitle">Modal title</h5> -->
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                <div class="modal-body">
+                                    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdxaBu-mnP96t6jxj9rlI-MrvaMIQwHwvqlEG6mhoLa8h-8Pw/viewform?embedded=true" width="100%" height="891" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+                                </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="form-group">
-                <label for="exampleFormControlInput1">Email address*</label>
-                <input type="email" class="form-control" id="exampleFormControlInput1">
-            </div>
-            <div class="form-group">
-                <label for="exampleFormControlInput1">Phone Number</label>
-                <input type="text" class="form-control" id="exampleFormControlInput1">
-            </div>
-            <div class="form-group">
-                <label for="exampleFormControlSelect1">How Did You Hear About Us?*</label>
-                <select class="form-control" id="exampleFormControlSelect1">
-                    <option>YouTube</option>
-                    <option>FaceBook</option>
-                    <option>Instagram</option>
-                    <option>Google Search</option>
-                    <option>Refered By Friend</option>
-                </select>
-            </div>
-            <div class="form-group">
-                <label for="exampleFormControlInput1">Subject*</label>
-                <input type="text" class="form-control" id="exampleFormControlInput1">
-            </div>
-            <div class="form-group">
-                <label for="exampleFormControlTextarea1">Tell Us Your Video Idea*</label>
-                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-            </div>
-        </form> -->
-        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdBHV0j59Hrcqo8z5rrcbAeO1CcAV4UxMgff95WO3mEWtKEiA/viewform?embedded=true" width="100%" height="1346" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+        </div>
+
     </div>
 @endsection

@@ -79,19 +79,30 @@ header {
 }
 
 /* sticky footer */
-/* html {
-    position: relative;
-    min-height: 100%;
-} */
+// html {
+//     position: relative;
+//     min-height: 100%;
+// } 
 
-.footer {
-    /* position: absolute; */
+// .footer {
+//     position: absolute; 
+//     bottom: 0;
+//     width: 100%;
+//     padding-bottom: 80px;
+//     margin-right: 20px;
+//     height: 240px; 
+//     line-height: 60px; 
+//     background-color: #363535;
+//     color: #fff;
+// }
+
+.footer { 
     bottom: 0;
     width: 100%;
     padding-bottom: 80px;
     margin-right: 20px;
-    height: 240px; /* Set the fixed height of the footer here */
-    line-height: 60px; /* Vertically center the text there */
+    height: 350px;
+    line-height: 70px;
     background-color: #363535;
     color: #fff;
 }

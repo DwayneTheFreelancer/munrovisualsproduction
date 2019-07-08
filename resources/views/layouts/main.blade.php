@@ -37,8 +37,11 @@
         }
 
         header {
-            background: rgba(0,0,100,0.5);
+            /* background: rgba(0,0,100,0.5); */
+            background: url("img/beach-rocks.jpg");
+            background-size: cover;
             height: 100vh;
+            margin-bottom: 100px;
         }
 
         .nav-link {
@@ -55,6 +58,7 @@
             font-family: sans-serif;
             color: #fff;
             top: 180px;
+            /* color: ; */
         }
 
         .banner-name h1{
@@ -91,20 +95,46 @@
             border-radius: 10px;
         }
 
+        .latest-video-title {
+            text-align: left;
+        }
+
+        /* .latest-video-title hr {
+            width: 150px;
+            text-align: left;
+        } */
+
+        .latest-videos {
+            margin: 100px auto;
+            border: 1px solid black;
+            padding: 35px 30px 30px 30px;
+            /* width: 100%; */
+        }
+
+        .latest-pics-art {
+            margin: 100px 0;
+        }
+
+        .instagram-div {
+            margin-top: 100px;
+        }
+
+
         body {
             
         }
-        .footer {
-            
+        /* .footer {
+            position: absolute;
             bottom: 0;
             width: 100%;
             padding-bottom: 80px;
             margin-right: 20px;
-            height: 240px; 
-            line-height: 60px; 
+            height: 340px; 
+            line-height: 80px; 
             background-color: #363535;
             color: #fff;
-        }
+        } */
+
 
         .footer a {
             color: #fff;
@@ -119,7 +149,7 @@
         
         @yield('content')
 
-        @yield('footer')
+        @extends('layouts.footer')
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
