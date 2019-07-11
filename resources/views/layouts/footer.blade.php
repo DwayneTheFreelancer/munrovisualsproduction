@@ -146,7 +146,7 @@
     <div id="mc_embed_signup">
     <form action="https://herokuapp.us3.list-manage.com/subscribe/post?u=a8508ec150a235879860da39d&amp;id=58c3663a46" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
         <div id="mc_embed_signup_scroll">
-      <h2>Subscribe</h2>
+      <h2>Subscribe To Newsletter</h2>
     <div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
     <div class="mc-field-group">
       <label for="mce-FNAME">First Name </label>
