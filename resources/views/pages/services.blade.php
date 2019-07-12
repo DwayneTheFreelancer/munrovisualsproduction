@@ -54,11 +54,11 @@
                 <div class="col-sm-6">
                     <div class="card">
                         <div class="card-body">
-                            <h5 class="card-title">Basic Package Price: $250</h5>
+                            <h5 class="card-title">Basic Production Price: $250</h5>
                             <ul>
-                                <li>Time 2hrs per day + up to 2 days to shoot scenes</li>
+                                <li>Time 2hrs per day + up to 2 days to shoot scenes, 1-2 loactions</li>
                                 <li>Travel fee: $20 included + tax</li>
-                                <li>Camera 1080 60p HD + Stablizer</li>
+                                <li>Camera 1080 60fp HD + Stablizer</li>
                                 <li>Professional Software Editing</li>
                             </ul>
                             <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
@@ -73,11 +73,11 @@
                 <div class="col-sm-6">
                     <div class="card">
                         <div class="card-body">
-                            <h5 class="card-title">Platinum Package Price: $350</h5>
+                            <h5 class="card-title">Advanced Production Price: $350</h5>
                             <ul>
-                                <li>Time 3hrs per day + up to 2 days to shoot scenes</li>
+                                <li>Time 3hrs per day + up to 2 days to shoot scenes, 1-3 locations</li>
                                 <li>Travel fee: $25 included + tax</li>
-                                <li>Camera 1080 60p HD + Stablizer + lighting</li>
+                                <li>Camera 1080 60fp HD + Stablizer + Professional lighting + green screen + fog machine</li>
                                 <li>Professional Software Editing</li>
                             </ul>
                             <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
