@@ -77,6 +77,8 @@
             font-family: sans-serif;
             color: #fff;
             top: 180px;
+            margin-top: -20px;
+            /* margin: -50px 25px 25px 25px; */
             /* color: ; */
         }
 
@@ -86,7 +88,7 @@
         }
 
         .banner-btn {
-            margin-top: 50px;  
+            margin-top: 30px;  
         }
 
         .recent-work {
@@ -164,7 +166,7 @@
         }
 
         .index-social-links {
-            margin-top: 250px;
+            margin-top: 240px;
             text-align: center;
         }
     </style>
