@@ -67,6 +67,18 @@
             <a href="/photography"><button type="button" class="btn banner-btn btn-light">Photoshop Edits</button></a>
             <a href="/graphic-art"><button type="button" class="btn banner-btn btn-light">Graphic Art</button></a>
         </div>
+        <div class="index-social-links">
+            <a href="https://www.instagram.com/munrovisualsmedia/">
+                <button style="background-color: #D545EF" type="button" class="btn btn-ins"><i class="fab fa-instagram pr-1"></i> Instagram</button>
+            </a>
+            <!--Facebook-->
+            <a href="https://www.facebook.com/Munro-Visuals-Media-430281657701815/">
+                <button style="background-color: #4A7ED5" type="button" class="btn btn-fb"><i class="fab fa-facebook-f pr-1"></i> Facebook</button>
+            </a>
+            <a href="https://www.youtube.com/channel/UCMA2n1omkzh68Z6ZXM_12yg/featured">
+                <button style="background-color: #F11507" type="button" class="btn btn-yt"><i class="fab fa-youtube pr-1"></i> Youtube</button>
+            </a>
+        </div>
         <!-- @yield('banner') -->
     </header>
 

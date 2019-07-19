@@ -162,6 +162,11 @@
         .subscribe {
             width: 50%;
         }
+
+        .index-social-links {
+            margin-top: 300px;
+            text-align: center;
+        }
     </style>
     <body>
         @yield('header')
