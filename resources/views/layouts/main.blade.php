@@ -164,7 +164,7 @@
         }
 
         .index-social-links {
-            margin-top: 300px;
+            margin-top: 250px;
             text-align: center;
         }
     </style>
