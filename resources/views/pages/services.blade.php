@@ -25,7 +25,7 @@
     .service-plans {
         width: 100%;
         height: 200px;
-        margin: 0px 0 350px 0;
+        margin: 0px 0 700px 0;
     }
 
     .art-request {
@@ -47,6 +47,7 @@
         <h1 class="text-center">Book A Video Shoot</h1>
         <h2 style="color: red"><center>Due to the problems with payments for past videos ALL BOOKINGS WILL REQUIRE 50% DOWN PAYMENT AND WON'T BE RELEASED UNTIL OTHER 50% OF PAYMENT IS RECIEVED NO EXCEPTIONS</center></h2>
         <h3 class="text-center">Locations we shoot in NY: Brooklyn, Manhattan, Queens NO OTHER LOCATIONS YET</h3>
+        <h2 style="color: orange" class="text-center">LOCATIONS OUTSIDE OF NEW YORK PRICES WILL BE SLIGHTLY HIGHER AND WILL AUTOMATICALLY GET THE ADVANCED PACKAGE NO TRAVEL FEE INCLUDED!!</h2>
     </div>
 
         <div class="container-fluid service-plans">
@@ -54,7 +55,7 @@
                 <div class="col-sm-6">
                     <div class="card">
                         <div class="card-body">
-                            <h5 class="card-title">Basic Production Price: $250</h5>
+                            <h5 class="card-title">BASIC PRODUCTION: $250</h5>
                             <ul>
                                 <li>Time 2hrs per day + up to 2 days to shoot scenes, 1-2 loactions</li>
                                 <li>Travel fee: $20 included + tax</li>
@@ -73,7 +74,7 @@
                 <div class="col-sm-6">
                     <div class="card">
                         <div class="card-body">
-                            <h5 class="card-title">Advanced Production Price: $350</h5>
+                            <h5 class="card-title">ADVANCED PRODUCTION: $350</h5>
                             <ul>
                                 <li>Time 3hrs per day + up to 2 days to shoot scenes, 1-3 locations</li>
                                 <li>Travel fee: $25 included + tax</li>
@@ -83,6 +84,24 @@
                             <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
                                 <input type="hidden" name="cmd" value="_s-xclick">
                                 <input type="hidden" name="hosted_button_id" value="SEDZB83YQ72AE">
+                                <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                                <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title text-center">OUT OF NY PRODUCTION: $650 + tax</h5>
+                            <ul>
+                                <li>Time 6hrs + 1 day to shoot scenes, 1-3 locations</li>
+                                <li>Camera 1080 60fp HD + Stablizer + Professional lighting + green screen + fog machine</li>
+                                <li>Professional Software Editing</li>
+                            </ul>
+                            <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                                <input type="hidden" name="cmd" value="_s-xclick">
+                                <input type="hidden" name="hosted_button_id" value="3LAQE4Y9DLWML">
                                 <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
                                 <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
                             </form>
