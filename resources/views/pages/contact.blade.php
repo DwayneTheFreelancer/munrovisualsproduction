@@ -15,7 +15,7 @@
         <form action="https://formspree.io/munrovisualsmedia@gmail.com" method="POST" />
             <div class="form-group">
                 <label for="name">Name:</label>
-                <input type="text" class="form-control" id="name" aria-describedby="name" />
+                <input type="text" class="form-control" id="name" name="name" aria-describedby="name" />
             </div>
             <div class="form-group">
                 <label for="email">Email:</label>
@@ -23,7 +23,7 @@
             </div>
             <div class="form-group">
                 <label for="feedback">Feedback:</label>
-                <textarea class="form-control" id="feedback" rows="3"></textarea>
+                <textarea class="form-control" id="feedback" name="message" rows="3"></textarea>
             </div>
             <button type="submit" class="btn btn-primary">Submit</button>
         </form>
