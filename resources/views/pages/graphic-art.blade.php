@@ -3,14 +3,15 @@
 @section('styles')
     <style>
         .graphic {
-            margin: 200px 0 0px 0;
-            height: 86vh;
+            margin: 200px auto;
+            /* height: 86vh; */
         }
 
         .graphic .card img {
             width: 100%;
             height: 300px;
         }
+
     </style>
 @endsection
 
@@ -32,9 +33,53 @@
                         </a>
                     </div>
                 </div>
-                <div class="col-md-3"></div>
-                <div class="col-md-3"></div>
+                <div class="col-md-3">
+                    <div class="card">
+                        <a href="img/Dwayne Protrait.PNG">
+                            <img src="img/Dwayne Protrait.PNG" alt="Munro Visuals Media Protrait" class="card-img-top"/>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card">
+                        <a href="img/Unbreakable.JPG">
+                            <img src="img/Unbreakable.JPG" alt="Munro Viusals Media Graphic Art" class="card-img-top"/>
+                        </a>
+                    </div>
+                </div>
             </div>
+
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="card">
+                        <a href="img/MVM Anime.JPG">
+                            <img src="img/MVM Anime.JPG" alt="Munro Viusals Media Anime" class="card-img-top"/>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card">
+                        <a href="img/X.JPG">
+                            <img src="img/X.JPG" alt="Munro Viusals Media XXXTentacion" class="card-img-top"/>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card">
+                        <a href="img/Heavenly Featurez.JPG">
+                            <img src="img/Heavenly Featurez.JPG" alt="Munro Viusals Media Graphic Art" class="card-img-top"/>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card">
+                        <a href="img/Pilar Portrait.PNG">
+                            <img src="img/Pilar Portrait.PNG" alt="Munro Viusals Media Graphic Art" class="card-img-top"/>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
         </div>
     </div>
 @endsection

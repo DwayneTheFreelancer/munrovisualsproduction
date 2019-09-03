@@ -15,7 +15,7 @@
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarText" >
+            <div class="collapse navbar-collapse" id="navbarText">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item active">
                         <a style="color: #fff;" class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -82,6 +82,10 @@
         <!-- @yield('banner') -->
     </header>
 
+    <div style="margin-bottom: 100px;" class="container">
+        <h1 style="color: Red" class="text-center">First Video for $100 HURRY ONLY 9 OFFERS LEFT!!!</h1>
+    </div>
+
 @endsection
 
 @section('content')
@@ -95,14 +99,17 @@
         </ol>
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <iframe width="100%" height="450" src="https://www.youtube.com/embed/zcG0v-d1H-8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <!-- Jay Valor - Struggle -->
+                <iframe width="100%" height="450px" src="https://www.youtube.com/embed/28I1omTVLiM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div> 
+            <div class="carousel-item">
+                <!-- YKTVz - Bally Durant -->
+                <iframe width="100%" height="450px" src="https://www.youtube.com/embed/zcG0v-d1H-8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
             <div class="carousel-item">
+                <!-- QM Von - Young & Wild -->
                 <iframe width="100%" height="450px" src="https://www.youtube.com/embed/6ymWaP0SnkI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
-            <!-- <div class="carousel-item">
-                <iframe width="100%" height="450px" src="https://www.youtube.com/embed/o1gzrH3syhI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </div>  -->
         </div>
         <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -124,7 +131,6 @@
                 <div class="card-body">
                 <h5 class="card-title">Baby Prince Cover Art</h5>
                 <p class="card-text">With Baby Prince new single coming out soon he choose this to be his cover art, stay tuned for "Your Love Is My Drugz".</p>
-                <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
                 </div>
             </div>
             <div class="card">
@@ -132,15 +138,13 @@
                 <div class="card-body">
                 <h5 class="card-title">Munro Visuals Media Official Logo</h5>
                 <p class="card-text">We would love to give a thanks to our graphic artist for making us this logo.</p>
-                <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
                 </div>
             </div>
             <div class="card">
-                <img src="img/Prom Pic 3.png" class="card-img-top" alt="..." width="300px" height="300px">
+                <img src="img/Unbreakable.JPG" class="card-img-top" alt="..." width="300px" height="300px">
                 <div class="card-body">
-                <h5 class="card-title">Prom 2k19 Pic</h5>
-                <p class="card-text">Big thanks to Amia for choosing Munro Visuals Media to be her photographer for her prom. <br>IG: amialicious</p>
-                <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
+                <h5 class="card-title">Unbr3akeable</h5>
+                <p class="card-text">Art work designed by my talented graphic artist Munro Visuals Media is not just about videos</p>
                 </div>
             </div>
         </div>
